@@ -11,7 +11,7 @@ const translations = {
         menuHome: "Home",
         menuShop: "Shop",
         menuAbout: "About",
-        menuContact: "Contact",
+        menuContact: "Contact"
     },
     es: {
         tagline: "Diseñador, Animador y Narrador Visual",
