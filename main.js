@@ -7,7 +7,11 @@ const translations = {
         projects: "projects",
         cta: "View Projects ↓",
         back: "← Back to Projects",
-        translate: "Translate"
+        translate: "Translate",
+        menuHome: "Home",
+        menuShop: "Shop",
+        menuAbout: "About",
+        menuContact: "Contact",
     },
     es: {
         tagline: "Diseñador, Animador y Narrador Visual",
@@ -16,7 +20,11 @@ const translations = {
         projects: "proyectos",
         cta: "Ver Proyectos ↓",
         back: "← Volver a Proyectos",
-        translate: "Traducir"
+        translate: "Traducir",
+        menuHome: "Inicio",
+        menuShop: "Tienda",
+        menuAbout: "Acerca de",
+        menuContact: "Contacto"
     }
 };
 
