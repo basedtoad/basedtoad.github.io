@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNZS Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle:wght@400;700&family=Outfit:wght@700;800;900&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div id="logo" class="logo hidden">TNZS</div>
+    
+    <button id="burger" class="burger hidden">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Menu Overlay -->
+    <div id="menu" class="menu-overlay">
+        <nav class="menu-nav">
+            <a href="#home" class="menu-item" data-delay="0.1">Home</a>
+            <a href="#shop" class="menu-item" data-delay="0.2">Shop</a>
+            <a href="#about" class="menu-item" data-delay="0.3">About</a>
+            <a href="#contact" class="menu-item" data-delay="0.4">Contact</a>
+        </nav>
+        
+        <div class="menu-bottom">
+            <div class="menu-logo">TNZS</div>
+            
+            <div class="menu-lang">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
+            
+            <div class="menu-social">
+                <a href="https://instagram.com" target="_blank" rel="noopener">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Home Page -->
+        <div id="home-page" class="page active">
+            <!-- Hero Video Section -->
+            <section class="hero">
+                <div class="hero-video">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&loop=1&playlist=dQw4w9WgXcQ&controls=0&showinfo=0" 
+                        frameborder="0" 
+                        allow="autoplay; encrypted-media" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="hero-gradient"></div>
+                <div class="hero-content">
+                    <p class="hero-tagline" data-i18n="tagline">Designer, Animator & Visual Storyteller</p>
+                    <p class="hero-intro" data-i18n="intro">Crafting digital experiences that blend motion, color, and texture. Specializing in brand identity, web design, and experimental animation.</p>
+                    <a href="mailto:hello@tnzs.design" class="hero-contact" data-i18n="contact">hello@tnzs.design</a>
+                    <div>
+                        <a href="#projects" class="hero-cta" data-i18n="cta">View Projects ↓</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects">
+                <h2 class="projects-title" data-i18n="projects">projects</h2>
+                <div id="projects-grid" class="projects-grid"></div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-tagline">UI/UX | Web | Motion | Branding</div>
+                <div class="footer-social">
+                    <a href="https://instagram.com" target="_blank" rel="noopener">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-lang">
+                    <span data-i18n="translate">Translate</span>: 
+                    <button id="footer-lang-toggle" class="footer-lang-btn">Español</button>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Project Page Template -->
+        <div id="project-page" class="page project-page">
+            <div class="project-container">
+                <button id="back-btn" class="back-btn" data-i18n="back">← Back to Projects</button>
+                <div id="project-content" class="project-content"></div>
+            </div>
+            
+            <!-- Footer on Project Page -->
+            <footer class="footer">
+                <div class="footer-tagline">UI/UX | Web | Motion | Branding</div>
+                <div class="footer-social">
+                    <a href="https://instagram.com" target="_blank" rel="noopener">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-lang">
+                    <span data-i18n="translate">Translate</span>: 
+                    <button class="footer-lang-btn">Español</button>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>

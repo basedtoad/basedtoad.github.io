@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "slug": "ethereal-dreams",
+    "title": "Ethereal Dreams",
+    "description": "A visual exploration of surreal landscapes and dreamlike atmospheres. This project combines motion design with 3D elements to create an immersive brand experience.",
+    "images": [
+      "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=800&h=600&fit=crop"
+    ],
+    "tags": ["Branding", "Motion", "3D"],
+    "colors": {
+      "primary": "#FF6B9D",
+      "secondary": "#C44569",
+      "accent": "#FFC8DD"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "urban-pulse",
+    "title": "Urban Pulse",
+    "description": "A dynamic web experience for a modern city guide. Features interactive maps and real-time data visualization.",
+    "images": [
+      "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=800&h=600&fit=crop"
+    ],
+    "tags": ["Web", "UI/UX"],
+    "colors": {
+      "primary": "#6C5CE7",
+      "secondary": "#A29BFE",
+      "accent": "#DFE6E9"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "botanical-series",
+    "title": "Botanical Series",
+    "description": "An illustrated collection celebrating organic forms and natural patterns. Each piece tells a story of growth and transformation.",
+    "images": [
+      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&h=600&fit=crop"
+    ],
+    "tags": ["Illustration", "Branding"],
+    "colors": {
+      "primary": "#00B894",
+      "secondary": "#00CEC9",
+      "accent": "#FFEAA7"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "neon-nights",
+    "title": "Neon Nights",
+    "description": "A retro-futuristic animation series exploring cyberpunk aesthetics and glitch art techniques.",
+    "images": [
+      "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800&h=600&fit=crop"
+    ],
+    "tags": ["Motion", "Animation"],
+    "colors": {
+      "primary": "#FD79A8",
+      "secondary": "#FDCB6E",
+      "accent": "#6C5CE7"
+    }
+  },
+  {
+    "id": 5,
+    "slug": "minimal-luxury",
+    "title": "Minimal Luxury",
+    "description": "High-end e-commerce platform with focus on typography and white space. Less is more.",
+    "images": [
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop"
+    ],
+    "tags": ["Web", "UI/UX", "Branding"],
+    "colors": {
+      "primary": "#2D3436",
+      "secondary": "#636E72",
+      "accent": "#DFE6E9"
+    }
+  },
+  {
+    "id": 6,
+    "slug": "sound-waves",
+    "title": "Sound Waves",
+    "description": "Visual identity for a music streaming platform. Motion-driven interface that responds to audio input.",
+    "images": [
+      "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&h=600&fit=crop"
+    ],
+    "tags": ["UI/UX", "Motion"],
+    "colors": {
+      "primary": "#0984E3",
+      "secondary": "#74B9FF",
+      "accent": "#FF7675"
+    }
+  },
+  {
+    "id": 7,
+    "slug": "earth-tones",
+    "title": "Earth Tones",
+    "description": "Sustainable fashion brand identity featuring earthy palettes and organic textures.",
+    "images": [
+      "https://images.unsplash.com/photo-1558769132-cb1aea41c2a1?w=800&h=600&fit=crop"
+    ],
+    "tags": ["Branding", "Illustration"],
+    "colors": {
+      "primary": "#A0522D",
+      "secondary": "#D2691E",
+      "accent": "#F5DEB3"
+    }
+  },
+  {
+    "id": 8,
+    "slug": "digital-garden",
+    "title": "Digital Garden",
+    "description": "Interactive portfolio site with growing animations and playful micro-interactions.",
+    "images": [
+      "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=800&h=600&fit=crop"
+    ],
+    "tags": ["Web", "Animation"],
+    "colors": {
+      "primary": "#55EFC4",
+      "secondary": "#81C784",
+      "accent": "#FFD700"
+    }
+  }
+]
